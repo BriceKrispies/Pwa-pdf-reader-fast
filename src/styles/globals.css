@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Base Styles */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f1e8;
+}
+
+/* Ramble Components */
+.btn-primary {
+  @apply bg-coral-500 hover:bg-coral-600 text-white font-medium py-3 px-6 rounded-2xl transition-all duration-200 shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coral-300;
+}
+
+.btn-secondary {
+  @apply bg-sage-200 hover:bg-sage-300 text-forest-600 font-medium py-3 px-6 rounded-2xl transition-all duration-200 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-300;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-sm border-0 p-4;
+}
+
+.expedition-card {
+  @apply bg-white/90 backdrop-blur-sm rounded-2xl shadow-sm border border-sage-200/60 p-4 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200;
+}
+
+.topo-bg {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0wIDIwQzEwIDI1IDMwIDEwIDUwIDIwQzcwIDMwIDkwIDEwIDEwMCAyMFY0MEM5MCA0NSA3MCA2MCA1MCA0MEM3MCAzMCAzMCA1NSAxMCA0MEMwIDM1IDAgMjAiIHN0cm9rZT0iIzdhOWE3OCIgc3Ryb2tlLXdpZHRoPSIwLjUiIGZpbGw9Im5vbmUiIG9wYWNpdHk9IjAuMyIvPgo8cGF0aCBkPSJNMCA2MEMxMCA2NSAzMCA1MCA1MCA2MEM3MCA3MCA5MCA1MCAxMDAgNjBWODBDOTAgODUgNzAgMTAwIDUwIDgwQzcwIDcwIDMwIDk1IDEwIDgwQzAgNzUgMCA2MCIgc3Ryb2tlPSIjN2E5YTc4IiBzdHJva2Utd2lkdGg9IjAuNSIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC4yIi8+Cjwvc3ZnPgo=');
+  background-size: 80px 80px;
+  background-repeat: repeat;
+}
+
+.difficulty-easy { @apply bg-forest-100 text-forest-600 px-3 py-1 rounded-full text-sm font-medium; }
+.difficulty-moderate { @apply bg-earth-100 text-earth-600 px-3 py-1 rounded-full text-sm font-medium; }
+.difficulty-hard { @apply bg-coral-100 text-coral-600 px-3 py-1 rounded-full text-sm font-medium; }
+
+.bottom-nav {
+  @apply fixed bottom-0 left-0 right-0 bg-white/85 backdrop-blur-md border-t border-sage-200 px-4 py-2 shadow-lg;
+}
+
+.nav-item {
+  @apply flex flex-col items-center justify-center py-2 px-3 rounded-xl transition-all duration-200;
+}
+
+.nav-item.active {
+  @apply bg-sage-100 text-forest-600;
+}
+
+.nav-item:not(.active) {
+  @apply text-sage-500 hover:text-sage-600;
+}
+
+.floating-add {
+  @apply fixed bottom-20 right-4 bg-sage-300 hover:bg-sage-400 text-forest-600 w-12 h-12 rounded-full flex items-center justify-center shadow-xl ring-1 ring-sage-300/60 transition-all duration-200;
+}
+
+/* Profile Page Styles */
+.profile-avatar {
+  background: linear-gradient(135deg, #e8f0e6 0%, #d1e1ce 100%);
+  box-shadow: 0 4px 12px rgba(127, 165, 120, 0.2);
+}
+
+/* Polished UI helpers */
+.glass-header {
+  @apply bg-white/80 backdrop-blur-md border border-sage-200/60 rounded-3xl shadow-sm;
+}
+
+.input {
+  @apply bg-white border border-sage-200 rounded-xl px-4 py-3 text-gray-700 placeholder-sage-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-sage-300;
+}
+
+.textarea {
+  @apply bg-white border border-sage-200 rounded-xl px-4 py-3 text-gray-700 placeholder-sage-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-sage-300 resize-none;
+}
+
+.input-error {
+  @apply border-coral-400 ring-1 ring-coral-200;
+}
+
+.section-title {
+  @apply text-xl font-semibold text-gray-800 tracking-tight;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full bg-sage-100 text-forest-600 px-3 py-1 text-sm font-medium;
+}

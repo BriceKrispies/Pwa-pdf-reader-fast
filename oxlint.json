@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "react/jsx-no-target-blank": "error",
+    "react/jsx-key": "error",
+    "react/no-deprecated": "warn",
+    "typescript/no-unused-vars": "warn",
+    "typescript/no-explicit-any": "warn"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true
+  }
+}

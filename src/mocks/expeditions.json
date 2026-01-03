@@ -1,0 +1,62 @@
+[
+  {
+    "id": "exp-001",
+    "title": "Alpine Lakes Trail",
+    "location": "Washington State, USA",
+    "difficulty": "Moderate",
+    "duration": "3 days",
+    "distance": "24.5 miles",
+    "elevation": "3,200 ft",
+    "description": "A stunning loop through pristine alpine lakes with breathtaking mountain views.",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+    "highlights": [
+      "Crystal clear alpine lakes",
+      "Panoramic mountain views", 
+      "Wildflower meadows",
+      "Wildlife spotting opportunities"
+    ],
+    "bestTime": "July - September",
+    "permits": true,
+    "tags": ["hiking", "camping", "lakes", "mountains"]
+  },
+  {
+    "id": "exp-002",
+    "title": "Desert Canyon Adventure",
+    "location": "Utah, USA",
+    "difficulty": "Hard",
+    "duration": "5 days",
+    "distance": "42 miles",
+    "elevation": "1,800 ft",
+    "description": "Experience the raw beauty of red rock canyons and ancient petroglyphs.",
+    "imageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+    "highlights": [
+      "Slot canyon exploration",
+      "Ancient petroglyphs",
+      "Stunning red rock formations",
+      "Star-filled night skies"
+    ],
+    "bestTime": "March - May, September - November",
+    "permits": true,
+    "tags": ["hiking", "canyons", "desert", "photography"]
+  },
+  {
+    "id": "exp-003",
+    "title": "Coastal Ridge Walk",
+    "location": "Oregon, USA",
+    "difficulty": "Easy",
+    "duration": "2 days",
+    "distance": "12 miles",
+    "elevation": "800 ft",
+    "description": "Gentle coastal hike with ocean views and old-growth forest sections.",
+    "imageUrl": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    "highlights": [
+      "Pacific Ocean views",
+      "Old-growth forest",
+      "Tide pools exploration",
+      "Lighthouse visits"
+    ],
+    "bestTime": "May - October",
+    "permits": false,
+    "tags": ["hiking", "coast", "forest", "easy"]
+  }
+]

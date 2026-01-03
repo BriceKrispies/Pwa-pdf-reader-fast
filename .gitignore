@@ -1,0 +1,62 @@
+# node modules
+/node_modules/
+
+# build outputs
+/dist/
+/build/
+
+# environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+.idea/
+
+# caches
+/.cache/
+/.pnp/
+/.pnp.js
+
+# dependency directories (if using package managers that create lockfiles elsewhere)
+/.turbo/
+/out/
+
+# coverage
+/coverage/
+
+# local config/state
+/local-*.json
+
+# Storybook
+/storybook-static/
+
+# test results
+/jest-cache/
+/jest/
+/playwright-report/
+
+# or if using yarn you can keep yarn.lock instead; comment out above if committing lockfile
+
+# optional: editor swap/temp files
+*~
+*.swp
+.aider*

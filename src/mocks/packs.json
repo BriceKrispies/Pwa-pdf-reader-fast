@@ -1,0 +1,104 @@
+[
+  {
+    "id": "pack-001",
+    "name": "3-Day Alpine Adventure Pack",
+    "expeditionId": "exp-001",
+    "totalWeight": "28.5 lbs",
+    "packWeight": "2.8 lbs",
+    "categories": [
+      {
+        "name": "Shelter & Sleep",
+        "weight": "4.2 lbs",
+        "items": [
+          { "name": "Ultralight Tent", "weight": "2.1 lbs", "essential": true },
+          { "name": "Sleeping Bag (20°F)", "weight": "1.8 lbs", "essential": true },
+          { "name": "Sleeping Pad", "weight": "0.3 lbs", "essential": true }
+        ]
+      },
+      {
+        "name": "Clothing",
+        "weight": "3.8 lbs",
+        "items": [
+          { "name": "Rain Jacket", "weight": "0.8 lbs", "essential": true },
+          { "name": "Insulation Layer", "weight": "1.2 lbs", "essential": true },
+          { "name": "Extra Socks (2 pairs)", "weight": "0.4 lbs", "essential": false },
+          { "name": "Base Layer Set", "weight": "0.6 lbs", "essential": true },
+          { "name": "Hiking Pants", "weight": "0.8 lbs", "essential": true }
+        ]
+      },
+      {
+        "name": "Cooking & Food",
+        "weight": "8.2 lbs",
+        "items": [
+          { "name": "Lightweight Stove", "weight": "0.3 lbs", "essential": true },
+          { "name": "Fuel Canister", "weight": "0.4 lbs", "essential": true },
+          { "name": "Pot & Utensils", "weight": "0.5 lbs", "essential": true },
+          { "name": "Food (3 days)", "weight": "6.0 lbs", "essential": true },
+          { "name": "Water Filter", "weight": "0.6 lbs", "essential": true },
+          { "name": "Water Bottles", "weight": "0.4 lbs", "essential": true }
+        ]
+      },
+      {
+        "name": "Safety & Navigation",
+        "weight": "2.1 lbs",
+        "items": [
+          { "name": "First Aid Kit", "weight": "0.8 lbs", "essential": true },
+          { "name": "Map & Compass", "weight": "0.2 lbs", "essential": true },
+          { "name": "Headlamp + Batteries", "weight": "0.3 lbs", "essential": true },
+          { "name": "Emergency Whistle", "weight": "0.1 lbs", "essential": true },
+          { "name": "Multi-tool", "weight": "0.4 lbs", "essential": false },
+          { "name": "Fire Starter", "weight": "0.3 lbs", "essential": true }
+        ]
+      },
+      {
+        "name": "Personal Care",
+        "weight": "1.0 lbs",
+        "items": [
+          { "name": "Toiletries", "weight": "0.3 lbs", "essential": true },
+          { "name": "Sunscreen", "weight": "0.2 lbs", "essential": true },
+          { "name": "Personal Medications", "weight": "0.1 lbs", "essential": true },
+          { "name": "Trowel", "weight": "0.2 lbs", "essential": true },
+          { "name": "Toilet Paper", "weight": "0.2 lbs", "essential": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pack-002", 
+    "name": "Desert Expedition Pack",
+    "expeditionId": "exp-002",
+    "totalWeight": "35.2 lbs",
+    "packWeight": "3.2 lbs",
+    "categories": [
+      {
+        "name": "Shelter & Sleep",
+        "weight": "5.1 lbs",
+        "items": [
+          { "name": "4-Season Tent", "weight": "3.2 lbs", "essential": true },
+          { "name": "Sleeping Bag (30°F)", "weight": "1.5 lbs", "essential": true },
+          { "name": "Sleeping Pad", "weight": "0.4 lbs", "essential": true }
+        ]
+      },
+      {
+        "name": "Water & Hydration",
+        "weight": "12.5 lbs",
+        "items": [
+          { "name": "Water (6L for desert)", "weight": "13.2 lbs", "essential": true },
+          { "name": "Water Purification Tablets", "weight": "0.2 lbs", "essential": true },
+          { "name": "Electrolyte Powder", "weight": "0.3 lbs", "essential": true }
+        ]
+      },
+      {
+        "name": "Sun Protection",
+        "weight": "1.8 lbs",
+        "items": [
+          { "name": "Sun Hat", "weight": "0.3 lbs", "essential": true },
+          { "name": "Sunglasses", "weight": "0.2 lbs", "essential": true },
+          { "name": "High SPF Sunscreen", "weight": "0.4 lbs", "essential": true },
+          { "name": "Lightweight Long Sleeves", "weight": "0.6 lbs", "essential": true },
+          { "name": "Neck Gaiter", "weight": "0.3 lbs", "essential": true }
+        ]
+      }
+    ]
+  }
+]
